@@ -11,7 +11,7 @@ const getRandomColor = () => {
       age: 15,
       desc: "This is the first card",
       src: "https://via.placeholder.com/150",
-      bg: getRandomColor()  // Assign random color
+      bg: getRandomColor()  
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const getRandomColor = () => {
       age: 15,
       desc: "This is the second card",
       src: "https://via.placeholder.com/150",
-      bg: getRandomColor()  // Assign random color
+      bg: getRandomColor()  
     },
     {
       id: 3,
@@ -27,7 +27,15 @@ const getRandomColor = () => {
       age: 15,
       desc: "This is the third card",
       src: "https://via.placeholder.com/150",
-      bg: getRandomColor()  // Assign random color
+      bg: getRandomColor()  
+    },
+    {
+      id: 4,
+      name: "Card 4",
+      age: 18,
+      desc: "This is the forth card",
+      src: "https://via.placeholder.com/150",
+      bg: getRandomColor() 
     }
   ];
   
